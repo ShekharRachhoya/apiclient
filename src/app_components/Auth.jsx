@@ -56,7 +56,7 @@ const Auth = () => {
 
                     auth.type === 'Bearer' && <Field.Root>
                         <Field.Label>Token</Field.Label>
-                        <Input onChange={onChange} placeholder="me@example.com" />
+                        <Input onChange={onChange} placeholder='token' />
                     </Field.Root>
 
 
@@ -67,7 +67,7 @@ const Auth = () => {
 
                     auth.type === 'Custom' && <Field.Root>
                         <Field.Label>Authorization</Field.Label>
-                        <Input onChange={onChange} placeholder="me@example.com" />
+                        <Input onChange={onChange}  />
                     </Field.Root>
 
 
